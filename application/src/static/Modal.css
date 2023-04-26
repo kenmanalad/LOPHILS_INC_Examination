@@ -1,0 +1,72 @@
+.background{
+    margin: -110px;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width: 450px;
+    height: 85%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0,35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding :25px;
+}
+.exit{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+.title_xbutton,.author-date,.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.title_xbutton{
+    margin-left: 0;
+}
+.author-date{
+    margin-left: 0;
+    width: 35%;
+    white-space: nowrap;
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.titles{
+    margin: 0;
+    font-weight: bold;
+}
+.authors,.dates{
+    font-size: 13px;
+    font-weight: bold;
+    color:#646464;
+}
+fieldset{
+    border: 2px dashed;
+}
+.pub,.del{
+    color: white;
+    margin: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.pub{
+    background-color: rgb(66, 81, 245);
+}
+.del{
+    background-color: rgb(255, 28, 28);
+}
